@@ -1,0 +1,85 @@
+{
+  "moves": [
+     {
+       "move_number": 1,
+       "half_move_number": 1,
+       "player": "white",
+       "classification": "good",
+       "time_taken": 12.5,
+       "depth": 20,
+       "before": {
+         "development": 0.30,
+         "tension": 0.15,
+         "control": 0.12,
+         "mobility": 0.08,
+         "eval_cp": 0.10,
+         "eval_mate": null,
+         "fen": "...",
+         "san": "...",
+         "legal_moves": 30,
+         "best_following_line": ["e4", "e5", "Nf3", "Nc6", "..."]
+       },
+       "actual_move": {
+         "development": 0.28,
+         "tension": 0.14,
+         "control": 0.10,
+         "mobility": 0.07,
+         "eval_cp": 0.08,
+         "eval_mate": null,
+         "fen": "...",
+         "san": "...",
+         "legal_moves": 30,
+         "best_following_line": ["e4", "e5", "Nf3", "Nc6", "..."]
+       },
+       "best_moves": [{ # include 5 best moves
+         "development": 0.32,
+         "tension": 0.16,
+         "control": 0.13,
+         "mobility": 0.09,
+         "eval_cp": 0.12,
+         "eval_mate": null,
+         "fen": "...",
+         "san": "...",
+         "legal_moves": 30,
+         "best_following_line": ["e4", "e5", "Nf3", "Nc6", "..."]
+         },
+         {...},
+         ...
+        ]
+     },
+     ...
+  ],
+  "summary": {
+    "white": {
+      "username": "player1",
+      "rating": 1250,
+      "estimated_elo": 1300,
+      "total_moves": 40,
+      "accuracy": 0.88,
+      "avg_centipawn_loss": 30,
+      "book": 15,
+      "brilliant": 0,
+      "best": 5,
+      "excellent": 10,
+      "good": 12,
+      "inaccuracy": 8,
+      "mistakes": 2,
+      "blunders": 1
+    },
+    "black": {
+      "username": "player2",
+      "rating": 1250,
+      "estimated_elo": 1300,
+      "total_moves": 40,
+      "accuracy": 0.88,
+      "avg_centipawn_loss": 30,
+      "book": 15,
+      "brilliant": 0,
+      "best": 5,
+      "excellent": 10,
+      "good": 12,
+      "inaccuracy": 8,
+      "mistakes": 2,
+      "blunders": 1
+  }
+}
